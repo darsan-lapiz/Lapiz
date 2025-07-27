@@ -1,20 +1,19 @@
-function Overview()
+function About()
 {
     return(
         <>
-        <div className="flex h-screen">
-            <div>
-                <img src="https://i.ibb.co/JwPFX2mQ/Visionary-technology-bro-2.png" alt="Visionary-technology-bro-2" border="0
-                "></img>
+        <div id="about" className="flex h-screen">
+            <div className="flex">
+                <img src="https://i.ibb.co/27YcXVKW/fulcurm.png" className=' ml-[30px] my-[30px] mix-blend-normal h-[100px] w-[100px]'/>
+                <h1 className='h-[40px] w-[40px] top-[300px] my-[55px] text-Black font-inter font-bold text-[40px]'>Fulcurm</h1>
             </div>
-            <div className="max-w-[503px] ml-[800px] my-[75px]">
-            <h1 className="font-inter text-[48px] font-bold">Overview</h1>
-            <h2 className="font-poppins text-[18px] my-5">Computer Intelligence is the only invention mankind will ever need to build.</h2>
-            <h2 className="font-poppins text-[18px] my-5">Shouldn’t everyone get a fair chance to understand, use, and create it? That’s exactly what we help with.</h2>
-            <h2 className="font-poppins text-[18px] my-5">Fulcrum pivots potential from under-resourced regions in the right direction toward learning about and shaping the future of artificial intelligence. We support individuals through global mentorship, free learning resources, and by bridging the gap between rural communities and the frontiers of AI.</h2>
-        </div>
+            <div className="ml-[390px] my-[250px] text-center font-inter max-w-[600px] ">
+                <p className="text-[30px] font-bold">We Support Individual From Under Resourced Region</p>
+                <p className="text-[30px] font-bold">To Learn AI</p>
+                <p className="my-[20px] text-gray-500">---Non-Profit Initiative---</p>
+            </div>
         </div>
         </>
     )
 }
-export default Overview;
+export default About;
