@@ -7,6 +7,7 @@ import Home from './Components/home';
 import About from './Components/overview';
 import Vision from './Components/Vision';
 import Support from './Components/Support';
+import Mentor from './Components/mentor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <About/>
     <Vision/>
     <Support/>
+    <Mentor/>
     </>
 );
 

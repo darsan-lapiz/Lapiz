@@ -7,9 +7,9 @@ function Home(){
       <div className=' flex text-gray-700 align-middle items-center w-[600px] h-[62px] gap-[10px] m-4 ml-[480px] top-[53px]   outline-none rounded-[50px]    justify-center'>
          <a href="#about"><button className='m-2 w-[80px] h-[40px]  border-black    rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>About</button></a>
           <a href="#vision"><button className='m-2 w-[80px] h-[40px]  rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Mission</button></a>
-         <button className='m-2 w-[80px] h-[40px]  hover:bg-green-100 bg-transparent rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Support</button>
-         <button className='m-2 w-[80px] h-[40px]  hover:bg-green-100 bg-transparent rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Join Us</button>
-         <button className='m-2 w-[80px] h-[40px]  hover:bg-green-100 bg-transparent rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Contact</button>
+          <a href="#support"><button className='m-2 w-[80px] h-[40px]  hover:bg-green-100 bg-transparent rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Support</button></a>
+         <a href="#join"><button className='m-2 w-[80px] h-[40px]  hover:bg-green-100 bg-transparent rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Join Us</button></a>
+         <a href="#mentor"> <button className='m-2 w-[80px] h-[40px]  hover:bg-green-100 bg-transparent rounded-[20px] text-1xl font-bolder align-middle text-grey-700 gap-[10px]  '>Mentor</button></a>
       </div>
     </nav>
     <div className='my-[80px] mx-10 ml-[275px] m-96 text-center w-[761px] h-[230px]'>
