@@ -8,8 +8,8 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col items-center lg:items-start space-y-8">
             <div className="relative group">
-              <div className="w-32 h-32 bg-gradient-to-br from-black to-gray-700 rounded-3xl flex items-center justify-center shadow-2xl group-hover:scale-105 transition-transform duration-300">
-                <span className="text-4xl font-bold text-white">F</span>
+              <div className="w-32 h-32 bg-gradient-to-br from-black to-gray-700 rounded-3xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <img src="https://i.ibb.co/v6ZPB2tP/Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6.jpg" alt="Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6" className="mix-blend-normal"/>
               </div>
 
               <div className="absolute -top-2 -right-2 w-8 h-8 bg-gray-300 rounded-full opacity-60"></div>
