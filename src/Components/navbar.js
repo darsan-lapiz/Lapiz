@@ -28,8 +28,8 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <div className="relative group">
-              <div className="w-12 h-12 bg-gradient-to-br from-black to-gray-700 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-105 transition-all duration-300">
-                <span className="text-xl font-bold text-white">F</span>
+              <div className="w-12 h-12 bg-gradient-to-br from-black to-gray-700 rounded-xl flex items-center justify-center  group-hover:scale-105 transition-all duration-300">
+                <img src="https://i.ibb.co/v6ZPB2tP/Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6.jpg" alt="Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6" className="mix-blend-normal"/>
               </div>
 
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-gray-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
