@@ -8,7 +8,7 @@ import About from './Components/overview';
 import Vision from './Components/Vision';
 import Support from './Components/Support';
 import Mentor from './Components/mentor';
-
+import Footer from './Components/footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
@@ -18,6 +18,7 @@ root.render(
     <Vision/>
     <Support/>
     <Mentor/>
+    <Footer/>
     </>
 );
 

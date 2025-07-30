@@ -7,7 +7,7 @@ function Mentor()
             <div className="text-center align-middle justify-items-center">
                 <h1 className="font-poppins font-bold text-[40px]">Where Are Our Mentors From?</h1>
             </div>
-        <div className=" flex  flex-wrap gap-x-32 gap-y-10 my-[30px] mx-[75px]">
+        <div className=" flex   gap-x-32 gap-y-10 my-[30px] mx-[75px]">
             <Mentorcard
             link="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Deakin_University_Logo_2017.svg/1200px-Deakin_University_Logo_2017.svg.png"
             collage="Deakin University"
