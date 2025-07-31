@@ -12,8 +12,7 @@ function About() {
                 <img src="https://i.ibb.co/v6ZPB2tP/Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6.jpg" alt="Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6" className="mix-blend-normal"/>
               </div>
 
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-gray-300 rounded-full opacity-60"></div>
-              <div className="absolute -bottom-3 -left-3 w-6 h-6 bg-gray-400 rounded-full opacity-40"></div>
+             
             </div>
 
             <div className="text-center lg:text-left">

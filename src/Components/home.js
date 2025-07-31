@@ -2,18 +2,18 @@ import Navbar from "./navbar";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-gray-100 to-slate-200 scroll-smooth font-sans text-gray-800">
+    <div className="min-h-screen bg-gradient-to-br scroll-smooth font-sans text-gray-800">
       <Navbar />
 
       <div className="relative pt-20 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
 
           
-          <div className="absolute inset-0 overflow-hidden -z-10">
+         {/*<div className="absolute inset-0 overflow-hidden -z-10">
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
             <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse delay-1000"></div>
             <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-yellow-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse delay-2000"></div>
-          </div>
+          </div>*/}
 
           
           <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16">

@@ -48,13 +48,13 @@ function Footer(){
             <p className="px-[20px]  font-bold font-poppins text-md text-gray-600">Join Us On Discord And Linkdein</p>
             <div className="flex py-[10px] px-[20px] gap-[50px]">
             <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/800px-QR_code_for_mobile_English_Wikipedia.svg.png"
+            src="https://i.ibb.co/b5wwPczg/qrcode-233186108-b768bd67b4e3f87b936c75b335409a6f.png"
             className="h-[100px]
             w-[100px]
             "
             />
             <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/800px-QR_code_for_mobile_English_Wikipedia.svg.png"
+            src="https://i.ibb.co/TBWmvFYk/Linkdein-Fulcrum.png"
             className="h-[100px]
             w-[100px]
             "

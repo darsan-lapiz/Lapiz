@@ -1,15 +1,11 @@
+import TestimonialSlider from "./testimonial";
+
 function Vision() {
   return (
     <section
       id="vision"
       className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20 px-6 relative overflow-hidden"
     >
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-black rounded-full mix-blend-multiply filter blur-3xl opacity-5 animate-pulse"></div>
-        <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-gray-800 rounded-full mix-blend-multiply filter blur-3xl opacity-5 animate-pulse delay-1000"></div>
-        <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-gray-600 rounded-full mix-blend-multiply filter blur-3xl opacity-5 animate-pulse delay-2000"></div>
-      </div>
-
       <div className="relative z-10">
         <div className="text-center max-w-4xl mx-auto mb-20">
           <h2 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-black via-gray-700 to-black bg-clip-text text-transparent mb-8">
@@ -46,7 +42,6 @@ function Vision() {
                   right direction toward learning and shaping the future of
                   artificial intelligence.
                 </p>
-
                 <p className="text-lg text-gray-700 leading-relaxed">
                   We support individuals through global mentorship, free
                   learning resources, and by bridging the gap between rural
@@ -75,27 +70,8 @@ function Vision() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-2xl">
-            <div className="relative group">
-              <div className="w-full aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl shadow-2xl flex items-center justify-center group-hover:scale-105 transition-transform duration-500 overflow-hidden">
-                <div className="relative w-full h-full flex items-center justify-center">
-                  <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-gray-600/10 rounded-3xl"></div>
-
-                  <div className="relative z-10 flex flex-col items-center space-y-4">
-                    <div className="w-20 h-20 bg-black rounded-2xl rotate-12 opacity-80"></div>
-                    <div className="w-16 h-16 bg-gray-600 rounded-xl -rotate-12 opacity-60"></div>
-                    <div className="w-12 h-12 bg-gray-400 rounded-lg rotate-45 opacity-40"></div>
-                  </div>
-
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-1 h-32 bg-gradient-to-b from-transparent via-gray-400 to-transparent opacity-30"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute -top-4 -right-4 w-8 h-8 bg-gray-300 rounded-full opacity-60 group-hover:scale-110 transition-transform duration-300"></div>
-              <div className="absolute -bottom-6 -left-6 w-12 h-12 bg-gray-200 rounded-full opacity-40 group-hover:scale-110 transition-transform duration-300"></div>
-            </div>
+          <div className="flex-1">
+            <TestimonialSlider />
           </div>
         </div>
 

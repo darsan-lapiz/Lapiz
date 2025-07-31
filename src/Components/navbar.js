@@ -32,7 +32,7 @@ function Navbar() {
                 <img src="https://i.ibb.co/v6ZPB2tP/Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6.jpg" alt="Whats-App-Image-2025-07-26-at-19-45-06-f477c2c6" className="mix-blend-normal"/>
               </div>
 
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-gray-300 rounded-full opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
+              
             </div>
 
             <span className="text-2xl font-bold bg-gradient-to-r from-black via-gray-700 to-black bg-clip-text text-transparent">

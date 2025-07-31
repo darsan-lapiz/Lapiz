@@ -3,7 +3,7 @@ function Mentor()
 {
     return(
         <>
-        <div id="mentor" className="h-screen">
+        <div id="mentor" className="">
             <div className="text-center align-middle justify-items-center">
                 <h1 className="font-poppins font-bold text-[40px]">Where Are Our Mentors From?</h1>
             </div>
